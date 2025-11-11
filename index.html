@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Ocean Clean</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌊 AI Ocean Clean</h1>
+    <p>AI와 함께 깨끗한 바다를 지켜요</p>
+  </header>
+
+  <section id="upload-section">
+    <h2>📷 해양 쓰레기 감시</h2>
+    <p>바다 사진을 업로드하면 AI가 쓰레기를 인식해요</p>
+    <input type="file" id="imageUpload" accept="image/*">
+    <button id="analyzeBtn">AI 분석 시작</button>
+    <div id="result"></div>
+  </section>
+
+  <section id="graph-section">
+    <h2>🌐 분석 결과</h2>
+    <canvas id="resultChart"></canvas>
+  </section>
+
+  <section id="campaign-section">
+    <h2>🤝 함께 실천해요</h2>
+    <p>당신의 한 장의 사진이 바다를 바꿉니다.</p>
+    <button onclick="alert('참여해주셔서 감사합니다!')">정화 활동 참여하기</button>
+  </section>
+
+  <footer>
+    <p>© 2025 AI Ocean Clean Project | Made by [이름]</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
